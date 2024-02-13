@@ -1,0 +1,20 @@
+baseURL: "https://changelogs.koharu.dev/"
+languageCode: "ko"
+title: "koharu.dev Changelogs"
+theme: "papermod"
+
+hasCJKLanguage: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+enableRobotsTXT: true
+
+minify:
+  minifyOutput: true
+
+params:
+  env: production
+  title: "koharu.dev Changelogs"
+  description: "Changelogs of koharu.dev applications"
+  defaultTheme: auto
