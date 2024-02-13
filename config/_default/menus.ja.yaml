@@ -1,0 +1,13 @@
+main:
+  - identifier: "home"
+    name: "ホーム"
+    url: "/"
+    weight: 1
+  - identifier: "archives"
+    name: "アーカイブ"
+    url: "/archives"
+    weight: 2
+  - identifier: "tags"
+    name: "タグ"
+    url: "/tags"
+    weight: 3

@@ -1,0 +1,13 @@
+main:
+  - identifier: "home"
+    name: "메인"
+    url: "/"
+    weight: 1
+  - identifier: "archives"
+    name: "전체 글 목록"
+    url: "/archives"
+    weight: 2
+  - identifier: "tags"
+    name: "태그"
+    url: "/tags"
+    weight: 3

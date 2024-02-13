@@ -1,0 +1,82 @@
+baseURL: "https://changelogs.koharu.dev/"
+title: "koharu.dev Changelogs"
+theme: "papermod"
+copyright: "© somni /"
+
+hasCJKLanguage: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+enableInlineShortcodes: true
+disablePathToLower: true
+pygmentsUseClasses: true
+
+mainsections: ["MyBoothManager", "Mollufier"]
+
+minify:
+  minifyOutput: true
+
+defaultContentLanguage: "ko"
+languages:
+  ko:
+    languageName: ":kr:"
+    languageCode: "ko"
+    title: "koharu.dev 업데이트 로그"
+    weight: 1
+    params:
+      title: "koharu.dev 업데이트 로그"
+      description: "koharu.dev 웹 서비스의 업데이트 기록 모음"
+      dateFormat: "2006년 1월 2일"
+      homeInfoParams:
+        Title: "koharu.dev 업데이트 로그"
+        Content: "koharu.dev 웹 서비스의 업데이트 기록 모음"
+  en:
+    languageName: ":us:"
+    languageCode: "en"
+    weight: 2
+  ja:
+    languageName: ":jp:"
+    languageCode: "ja"
+    weight: 3
+    params:
+      title: "koharu.dev 更新履歴"
+      description: "koharu.dev Webサービスの更新履歴一覧"
+      dateFormat: "2006年 1月 2日"
+      homeInfoParams:
+        Title: "koharu.dev 更新履歴"
+        Content: "koharu.dev Webサービスの更新履歴一覧"
+
+params:
+  env: production
+  title: "koharu.dev Changelogs"
+  description: "Changelogs of koharu.dev web services"
+  author: "somni"
+  defaultTheme: auto
+
+  ShowShareButtons: false
+  ShowReadingTime: false
+  ShowWordCount: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+
+  profileMode:
+    enabled: false
+    title: "somni"
+  homeInfoParams:
+    Title: "koharu.dev Changelogs"
+    Content: "Changelogs of koharu.dev web services"
+  socialIcons:
+    - name: "GitHub"
+      url: "https://github.com/somnisomni"
+    - name: "Twitter"
+      url: "https://twitter.com/somni_somni"
